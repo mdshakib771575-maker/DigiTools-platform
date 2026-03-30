@@ -8,7 +8,7 @@ const Navbar = () => {
 
 <div className="navbar bg-base-100 shadow-sm flex justify-between px-10 ">
   <div className="">
-    <a className="btn btn-ghost text-4xl text-blue-700 font-bold">DisiTools</a>
+    <a className="btn btn-ghost text-4xl text-purple-700 font-bold">DisiTools</a>
   </div>
 
   <div className='ml-10 font-semibold'>
@@ -33,7 +33,7 @@ const Navbar = () => {
     </div>
    <div className='flex gap-2'>
     <button className='text-black font-semibold'>Login</button>
-    <button className='btn btn-primary rounded-full'>Get Started</button>
+    <button className='btn text-white  bg-linear-to-r from-purple-700 to-purple-500 rounded-full'>Get Started</button>
    </div>
          
   </div>

@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Builder",
+    "description": "Create simple and clean resumes quickly with basic templates.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "10+ templates",
+      "Basic customization",
+      "Exclusive templates",
+      "Download as PDF"
+    ],
+    "icon": "/src/assets/products/design-tool.png"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Kit",
+    "description": "Advanced resume builder with ATS-friendly templates.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF & DOCX",
+      "Custom sections"
+    ],
+    "icon": "/src/assets/products/operation.png"
+  },
+  {
+    "id": 3,
+    "name": "Career Booster Pack",
+    "description": "Complete toolkit to improve resumes and cover letters.",
+    "price": 49.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Resume + Cover Letter builder",
+      "AI suggestions",
+      "Keyword optimization",
+      "Export options"
+    ],
+    "icon": "/src/assets/products/portfolio.png"
+  },
+  {
+    "id": 4,
+    "name": "Portfolio Builder",
+    "description": "Create stunning personal portfolios easily.",
+    "price": 5.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Drag & drop builder",
+      "Custom domains",
+      "Responsive design",
+      "Hosting included"
+    ],
+    "icon": "/src/assets/products/operation.png"
+  },
+  {
+    "id": 5,
+    "name": "Job Tracker Pro",
+    "description": "Track your job applications and progress in one place.",
+    "price": 3.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Application tracking",
+      "Status updates",
+      "Reminder alerts",
+      "Analytics dashboard"
+    ],
+    "icon": "/src/assets/products/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "Interview Prep AI",
+    "description": "Practice interviews with AI-powered mock sessions.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Mock interviews",
+      "AI feedback",
+      "Common questions",
+      "Performance scoring"
+    ],
+    "icon": "/src/assets/products/writing_2327400 1.png"
+  },
+  {
+    "id": 7,
+    "name": "LinkedIn Optimizer",
+    "description": "Optimize your LinkedIn profile for better visibility.",
+    "price": 19.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Profile review",
+      "Headline suggestions",
+      "SEO optimization",
+      "Content tips"
+    ],
+    "icon": "/src/assets/products/writing_2327400 1.png"
+  },
+  {
+    "id": 8,
+    "name": "Ultimate Career Bundle",
+    "description": "All-in-one package for job seekers.",
+    "price": 99.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "All tools included",
+      "Priority support",
+      "Regular updates",
+      "Exclusive templates"
+    ],
+    "icon": "/src/assets/products/writing_2327400 1.png"
+  },
+  {
+    "id": 9,
+    "name": "Freelancer Toolkit",
+    "description": "Tools designed for freelancers to manage clients and projects.",
+    "price": 7.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Invoice generator",
+      "Client management",
+      "Project tracking",
+      "Time tracking"
+    ],
+    "icon": "/src/assets/products/writing_2327400 1.png"
+  }
+]
