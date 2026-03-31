@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Tab = () => {
+const Tab = ({setActiveTab,cardsData}) => {
     return (
         <div className='mb-5'>
 
@@ -10,8 +10,8 @@ const Tab = () => {
             </div>
             {/* name of each tab group should be unique */}
             <div className="tabs tabs-box justify-center bg-transparent">
-                <input type="radio" name="my_tabs_1" className="tab w-40 rounded-2xl" aria-label="Products" defaultChecked />
-                <input type="radio" name="my_tabs_1" className="tab w-40 rounded-2xl" aria-label="Cart (2)"/>
+                <input onClick={()=>setActiveTab("products")} type="radio" name="my_tabs_1" className="tab w-40 rounded-2xl" aria-label="Products" defaultChecked />
+                <input  onClick={()=>setActiveTab("cart")} type="radio" name="my_tabs_1" className="tab w-40 rounded-2xl" aria-label={`Cart (${cardsData.length})`}/>
 
             </div>
         </div>

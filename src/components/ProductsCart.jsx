@@ -2,13 +2,14 @@ import React, { useState } from 'react';
 
 
 
-const ProductsCart = ({data}) => {
-    console.log(data)
+const ProductsCart = ({data,cardsData,setCardsData}) => {
+    // console.log(data)
       const [isBayNaw,setIsBayNaw] = useState(false)
-    console.log(isBayNaw)
+    // console.log(isBayNaw)
 
     const handalar =()=>{
 setIsBayNaw(true)
+setCardsData([...cardsData,data])
 }
     return (
         <div>
@@ -20,9 +21,9 @@ setIsBayNaw(true)
     <span className="badge badge-xs badge-warning">Most Popular</span>
     </div>
     <div className='space-y-1'>
-      <h2 className="text-3xl font-bold">Premium</h2>
+      <h2 className="text-2zxl font-bold">{data.name}</h2>
       <p>{data.description}</p>
-      <span className=" font-bold text-2xl">${data.price}/mo</span>
+      <span className=" font-semibold text-xl">${data.price}/mo</span>
     </div>
     <ul className="mt-6 flex flex-col gap-2 text-xs">
       <li>
