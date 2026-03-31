@@ -3,11 +3,11 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-           <footer className="footer sm:footer-horizontal bg-black text-white p-10">
+           <footer className="footer z sm:footer-horizontal bg-black text-white p-10">
   <aside>
    
-    <div className='w-60 '>
-    <p className='text-3xl font-bold mb-2 '> DigiTools</p>
+    <div className='w-60  '>
+    <p className='text-3xl font-bold mb-2  '> DigiTools</p>
     <p>Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</p>
     </div>
   </aside>

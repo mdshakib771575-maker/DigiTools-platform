@@ -1,5 +1,6 @@
 import React from 'react';
 import BayCard from './BayCard'
+import { toast } from 'react-toastify';
 
 const Cards = ({ cardsData, setCardsData }) => {
     // way -1
@@ -12,18 +13,21 @@ const Cards = ({ cardsData, setCardsData }) => {
     console.log(Math.floor(totalPrice))
     const handalPaymant = () => {
         setCardsData([])
+        { cardsData.length > 0 && toast("Delete All Cards")}
+       
     }
     const handalDelete = (item) => {
-     console.log(item)
-     const filterData = cardsData.filter(card=> card.id !== item.id)
-    //  console.log(filterData)
-     setCardsData(filterData);
+        console.log(item)
+        const filterData = cardsData.filter(card => card.id !== item.id)
+        //  console.log(filterData)
+        setCardsData(filterData);
+        toast("Delete Card")
     }
     return (
         <div className='w-11/12 mx-auto space-y-4 '>
             <h2 className='font-semibold mb-2 text-2xl ml-2'>Your cards :</h2>
 
-            {cardsData.length === 0 ? <p className='text-center text-2xl p-5 '>Your Card is Empty</p>: cardsData.map(cards => <BayCard cards={cards} key={cards.id} handalDelete={handalDelete} ></BayCard>)}
+            {cardsData.length === 0 ? <p className='text-center text-2xl p-10 '>Your Card is Empty</p> : cardsData.map(cards => <BayCard cards={cards} key={cards.id} handalDelete={handalDelete} ></BayCard>)}
 
             <div className='bg-black p-4 text-white rounded-xl border flex justify-between text-2xl font-semibold'>
                 <div>
