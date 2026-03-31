@@ -4,7 +4,7 @@ import { IoPlayCircleOutline } from "react-icons/io5";
 
 const Banner = () => {
     return (
-        <div className='w-[70%] mx-auto mt-6 mb-5'>
+        <div className='w-[70%] mx-auto mt-6 mb-8'>
             <div className='flex flex-col lg:flex-row items-center gap-6  ' >
                 <div className=' w-[450px] space-y-4'>
                     <h3 className='bg-sky-200 rounded-2xl px-1 text-purple-600'>New: AI-Powered Tools Available</h3>

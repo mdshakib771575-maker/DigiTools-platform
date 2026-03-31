@@ -7,6 +7,9 @@ import Cards from './components/Cards'
 import Tab from './components/Tab'
 import { useState } from 'react'
 import Banner from './components/Banner'
+import RecordSection from './components/RecordSection'
+import StartedSection from './components/StartedSection'
+import Footer from './components/Footer'
 
 const digiPromise = fetch('/data.json').then(res => res.json())
 function App() {
@@ -21,11 +24,15 @@ function App() {
 
       <Navbar cardsData={cardsData}></Navbar>
       <Banner></Banner>
+      <RecordSection></RecordSection>
       <Tab setActiveTab={setActiveTab} cardsData={cardsData}></Tab>
       {
         activeTab === "products" ? <Products digiPromise={digiPromise} cardsData={cardsData} setCardsData={setCardsData}></Products> :
           <Cards cardsData={cardsData} setCardsData={setCardsData }></Cards>
       }
+
+      <StartedSection></StartedSection>
+      <Footer></Footer>
 
 
 
