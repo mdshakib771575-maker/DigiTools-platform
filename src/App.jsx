@@ -6,6 +6,7 @@ import Products from './components/Products'
 import Cards from './components/Cards'
 import Tab from './components/Tab'
 import { useState } from 'react'
+import Banner from './components/Banner'
 
 const digiPromise = fetch('/data.json').then(res => res.json())
 function App() {
@@ -19,6 +20,7 @@ function App() {
     <>
 
       <Navbar cardsData={cardsData}></Navbar>
+      <Banner></Banner>
       <Tab setActiveTab={setActiveTab} cardsData={cardsData}></Tab>
       {
         activeTab === "products" ? <Products digiPromise={digiPromise} cardsData={cardsData} setCardsData={setCardsData}></Products> :
