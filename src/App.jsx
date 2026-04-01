@@ -26,7 +26,7 @@ function App() {
       <Navbar cardsData={cardsData}></Navbar>
       <Banner></Banner>
       <RecordSection></RecordSection>
-      <Tab setActiveTab={setActiveTab} cardsData={cardsData}></Tab>
+      <Tab activeTab={activeTab} setActiveTab={setActiveTab} cardsData={cardsData}></Tab>
       {
         activeTab === "products" ? <Products digiPromise={digiPromise} cardsData={cardsData} setCardsData={setCardsData}></Products> :
           <Cards cardsData={cardsData} setCardsData={setCardsData }></Cards>
