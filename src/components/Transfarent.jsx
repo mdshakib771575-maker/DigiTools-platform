@@ -3,14 +3,14 @@ import React from 'react';
 const Transfarent = () => {
     return (
         <>
-        <div className='mt-10 mb-10'>
+        <div className='mt-10 mb-15'>
             <div className='text-center mb-10'>
                 <h2 className='text-3xl font-bold'>Simple, Transparent Pricing</h2>
                 <p>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             </div>
       
 
-            <div className='border flex flex-col lg:flex-row w-11/12 mx-auto gap-6'>
+            <div className='flex flex-col lg:flex-row w-11/12 mx-auto gap-6'>
                 <div className="card w-full bg-base-100 shadow-2xl">
                     <div className="card-body">
                        
@@ -45,9 +45,9 @@ const Transfarent = () => {
                 </div>
                 <div className="card w-full bg-linear-to-r from-purple-700 to-purple-500 shadow-2xl text-white">
                     <div className="card-body">
-                        <span className="badge w-20 mx-auto badge-xs bg-amber-400 ">Most Popular</span>
+                        <span className="badge w-20 mx-auto badge-xs bg-amber-400">Most Popular</span>
                         
-                            <h2 className="text-3xl font-bold">Premium</h2>
+                            <h2 className="text-3xl font-bold">Pro</h2>
                             <p>Best for professionals</p>
                             <span className="text-xl">$29/mo</span>
                     

@@ -18,17 +18,17 @@ const ProductsCart = ({ data, cardsData, setCardsData }) => {
     <div>
 
       <div className="card bg-base-100 shadow-xl border">
-        <div className="card-body">
+        <div className="card-body ">
           <div className='flex justify-between'>
             <img src={data.icon} alt="" className='border rounded-4xl p-2 bg-base-300' />
-            <span className="badge badge-xs badge-warning">Most Popular</span>
+            <span className={`badge badge-xs p-2 ${data.badge == "new" ? "bg-green-200" : data.badge === "popular" ? "bg-purple-200" : "bg-amber-300"}`}>{data.badge}</span>
           </div>
           <div className='space-y-1'>
-            <h2 className="text-2zxl font-bold">{data.name}</h2>
+            <h2 className="text-2xl font-bold">{data.name}</h2>
             <p>{data.description}</p>
             <span className=" font-semibold text-xl">${data.price}/mo</span>
           </div>
-          <ul className="mt-6 flex flex-col gap-2 text-xs">
+          <ul className="mt-6 flex flex-col gap-2  text-md">
             <li>
               <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
               <span>{data.features[0]}</span>

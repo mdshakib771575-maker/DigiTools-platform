@@ -7,7 +7,7 @@ const Banner = () => {
         <div className='w-[70%] mx-auto mt-6 mb-8'>
             <div className='flex flex-col lg:flex-row items-center gap-6  ' >
                 <div className=' w-[450px] space-y-4'>
-                    <h3 className='bg-sky-200 rounded-2xl px-1 text-purple-600'>New: AI-Powered Tools Available</h3>
+                    <h3 className='bg-sky-200 rounded-2xl px-1 text-purple-600 w-60'>New: AI-Powered Tools Available</h3>
                     <p className='text-3xl font-bold'>Supercharge Your Digital Workflow</p>
                     <p>Access premium AI tools, design assets, templates, and productivitysoftware—all in one place. Start creating faster today.Explore Products </p>
                     <div className='flex gap-3'>

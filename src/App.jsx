@@ -31,7 +31,6 @@ function App() {
         activeTab === "products" ? <Products digiPromise={digiPromise} cardsData={cardsData} setCardsData={setCardsData}></Products> :
           <Cards cardsData={cardsData} setCardsData={setCardsData }></Cards>
       }
-
       <StartedSection></StartedSection>
       <Transfarent></Transfarent>
       <Footer></Footer>

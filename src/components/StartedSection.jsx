@@ -2,7 +2,7 @@ import React from 'react';
 
 const StartedSection = () => {
     return (
-        <div className='bg-base-200 p-2 pb-5 mt-10'> 
+        <div className='bg-base-200 p-2 pb-20 mt-10'> 
         
             <div className='text-center mb-10 mt-10 space-y-2'>
                
