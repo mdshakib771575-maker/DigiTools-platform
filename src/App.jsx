@@ -10,6 +10,7 @@ import Banner from './components/Banner'
 import RecordSection from './components/RecordSection'
 import StartedSection from './components/StartedSection'
 import Footer from './components/Footer'
+import Transfarent from './components/Transfarent'
 
 const digiPromise = fetch('/data.json').then(res => res.json())
 function App() {
@@ -32,6 +33,7 @@ function App() {
       }
 
       <StartedSection></StartedSection>
+      <Transfarent></Transfarent>
       <Footer></Footer>
 
 
