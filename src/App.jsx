@@ -34,11 +34,7 @@ function App() {
       <StartedSection></StartedSection>
       <Transfarent></Transfarent>
       <Footer></Footer>
-
-
-
-
-
+      
     </>
   )
 }
