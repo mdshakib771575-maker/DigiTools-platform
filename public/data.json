@@ -1,3 +1,5 @@
+
+
 [
   {
     "id": 1,
@@ -14,7 +16,7 @@
       "Exclusive templates",
       "Download as PDF"
     ],
-    "icon": "/src/assets/products/design-tool.png"
+    "icon": "https://i.ibb.co.com/QjhxKxzc/design-tool.png"
   },
   {
     "id": 2,
@@ -31,7 +33,7 @@
       "Export to PDF & DOCX",
       "Custom sections"
     ],
-    "icon": "/src/assets/products/operation.png"
+    "icon": "https://i.ibb.co.com/NdJRq4dQ/writing-2327400-1.png"
   },
   {
     "id": 3,
@@ -48,7 +50,7 @@
       "Keyword optimization",
       "Export options"
     ],
-    "icon": "/src/assets/products/portfolio.png"
+    "icon": "https://i.ibb.co.com/QjhxKxzc/design-tool.png"
   },
   {
     "id": 4,
@@ -65,7 +67,7 @@
       "Responsive design",
       "Hosting included"
     ],
-    "icon": "/src/assets/products/operation.png"
+    "icon":"https://i.ibb.co.com/NdJRq4dQ/writing-2327400-1.png"
   },
   {
     "id": 5,
@@ -82,7 +84,7 @@
       "Reminder alerts",
       "Analytics dashboard"
     ],
-    "icon": "/src/assets/products/social-media.png"
+    "icon": "https://i.ibb.co.com/QjhxKxzc/design-tool.png"
   },
   {
     "id": 6,
@@ -99,7 +101,7 @@
       "Common questions",
       "Performance scoring"
     ],
-    "icon": "/src/assets/products/writing_2327400 1.png"
+    "icon": "https://i.ibb.co.com/QjhxKxzc/design-tool.png"
   },
   {
     "id": 7,
@@ -116,7 +118,7 @@
       "SEO optimization",
       "Content tips"
     ],
-    "icon": "/src/assets/products/writing_2327400 1.png"
+    "icon":"https://i.ibb.co.com/CssG2vHd/social-media.png"
   },
   {
     "id": 8,
@@ -133,7 +135,7 @@
       "Regular updates",
       "Exclusive templates"
     ],
-    "icon": "/src/assets/products/writing_2327400 1.png"
+    "icon":"https://i.ibb.co.com/cKbg7Ybq/portfolio.png"
   },
   {
     "id": 9,
@@ -150,6 +152,6 @@
       "Project tracking",
       "Time tracking"
     ],
-    "icon": "/src/assets/products/writing_2327400 1.png"
+    "icon": "https://i.ibb.co.com/HTwFp5gy/operation.png"
   }
 ]

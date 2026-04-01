@@ -8,5 +8,5 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
     <ToastContainer autoClose={2000}></ToastContainer>
-  </StrictMode>,
+  </StrictMode>
 )

@@ -1,5 +1,7 @@
 import React from 'react';
-
+import usurimg from"../assets/user.png"
+import rocketimg from"../assets/rocket.png"
+import packageimg from"../assets/package.png"
 const StartedSection = () => {
     return (
         <div className='bg-base-200 p-2 pb-20 mt-10'> 
@@ -17,7 +19,7 @@ const StartedSection = () => {
                 <div className="card bg-base-100 shadow-2xl py-10">
                    
                     <figure>
-                        <img src="/src/assets/user.png" alt="" />
+                        <img src={usurimg} alt="" />
                     </figure>
                     <div className="card-body">
                         <h2 className="card-title justify-center">Create Account</h2>
@@ -28,7 +30,7 @@ const StartedSection = () => {
 
                 <div className="card bg-base-100 shadow-2xl py-20">
                     <figure>
-                        <img src="/src/assets/rocket.png" alt="" />
+                        <img src={rocketimg} alt="" />
                             
                     </figure>
                     <div className="card-body">
@@ -40,7 +42,7 @@ const StartedSection = () => {
 
                 <div className="card bg-base-100 shadow-2xl py-20">
                     <figure>
-                       <img src="/src/assets/package.png" alt="" />
+                       <img src={packageimg} alt="" />
                     </figure>
                     <div className="card-body">
                         <h2 className="card-title justify-center ">Start Creating</h2>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { IoPlayCircleOutline } from "react-icons/io5";
+import bannerImg from"../assets/banner.png"
 
 
 const Banner = () => {
@@ -16,7 +17,7 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className='w-[440px]'>
-                    <img src="/src/assets/banner.png" alt="" className='h-[450px] w-full' />
+                    <img src={bannerImg} alt="" className='h-[450px] w-full' />
                 </div>
             </div>
         </div>
